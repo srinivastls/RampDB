@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
+st.set_page_config( layout="wide")
 # API endpoints
 ontology_from_metabolites_url = "https://rampdb.nih.gov/api/ontologies-from-metabolites"
 pathways_from_analytes_url = "https://rampdb.nih.gov/api/pathways-from-analytes"
